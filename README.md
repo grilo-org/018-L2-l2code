@@ -23,14 +23,18 @@ Este projeto é uma aplicação backend construída com Spring Boot 3.4.3 e Java
 
 ---
 
-## Autenticação
+## 🔐 Autenticação
 
-Para acessar a aplicação, utilize as seguintes credenciais padrão:
+Para utilizar os endpoints protegidos da API, é necessário realizar o login com as seguintes credenciais padrão:
 
-Username: admin
-Password: admin123
+- **Usuário:** `admin`
+- **Senha:** `admin123`
 
-Essas credenciais permitem autenticar na API e acessar os endpoints protegidos por JWT. Certifique-se de incluir o token JWT gerado no header Authorization (formato Bearer <token>) para chamadas aos endpoints protegidos.
+Após o login, um **token JWT** será gerado e deverá ser utilizado nas requisições protegidas através do header:
+
+```http
+Authorization: Bearer <seu_token_jwt>
+```
 
 ## Configuração do projeto
 
