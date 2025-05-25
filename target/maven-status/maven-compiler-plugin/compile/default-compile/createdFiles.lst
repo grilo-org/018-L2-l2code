@@ -1,0 +1,17 @@
+com\avaliacao\l2code\dto\request\ProdutoDTO.class
+com\avaliacao\l2code\config\SwaggerConfig.class
+com\avaliacao\l2code\controller\AuthController.class
+com\avaliacao\l2code\enumerator\Caixa.class
+com\avaliacao\l2code\dto\response\PedidoResponseDTO.class
+com\avaliacao\l2code\dto\request\PedidoDTO.class
+com\avaliacao\l2code\security\TokenProvider.class
+com\avaliacao\l2code\dto\response\PedidoSaidaDTO.class
+com\avaliacao\l2code\service\EmpacotarService.class
+com\avaliacao\l2code\security\JwtFilter.class
+com\avaliacao\l2code\security\SecurityConfig.class
+com\avaliacao\l2code\dto\response\CaixaDTO.class
+com\avaliacao\l2code\controller\EmpacotarController.class
+com\avaliacao\l2code\security\UnauthorizedEntryPoint.class
+com\avaliacao\l2code\dto\request\PedidoRequestDTO.class
+com\avaliacao\l2code\L2codeApplication.class
+com\avaliacao\l2code\dto\request\DimensoesDTO.class

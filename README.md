@@ -23,6 +23,15 @@ Este projeto é uma aplicação backend construída com Spring Boot 3.4.3 e Java
 
 ---
 
+## Autenticação
+
+Para acessar a aplicação, utilize as seguintes credenciais padrão:
+
+Username: admin
+Password: admin123
+
+Essas credenciais permitem autenticar na API e acessar os endpoints protegidos por JWT. Certifique-se de incluir o token JWT gerado no header Authorization (formato Bearer <token>) para chamadas aos endpoints protegidos.
+
 ## Configuração do projeto
 
 Este é um projeto Maven. Para rodar a aplicação localmente, certifique-se de ter:
@@ -35,3 +44,5 @@ Este é um projeto Maven. Para rodar a aplicação localmente, certifique-se de 
 ```bash
 mvn clean install
 mvn spring-boot:run
+
+

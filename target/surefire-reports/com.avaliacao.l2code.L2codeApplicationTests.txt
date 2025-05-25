@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.avaliacao.l2code.L2codeApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.745 s -- in com.avaliacao.l2code.L2codeApplicationTests
